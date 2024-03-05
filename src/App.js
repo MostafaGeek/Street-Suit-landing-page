@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+
+import AcrossGlobal from './components/AcrossGlobal/AcrossGlobal';
 import './App.css';
+import AlertsSection from './components/AlertsSection/AlertsSection';
+import AnnoncmentSlider from './components/Annoncment-Slider/AnnoncmentSlider';
+import CompaniesCarousel from './components/CompaniesCarousel/CompaniesCarousel';
+import Hero from './components/Hero/Hero';
+import NavBar from './components/NavBar/NavBar';
+import Plans from './components/Plans/Plans';
+import Testmonial from './components/Testmonial/Testmonial';
+import TradingSction from './components/TradingSection/TradingSction';
+import TrainingsSection from './components/TrainingsSection/TrainingsSection';
+import ClientsFavFeature from './components/ClientsFavFeature/ClientsFavFeature';
+import CommingSoon from './components/CommingSoon/CommingSoon';
+import GetStarted from './components/GetStarted/GetStarted';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AnnoncmentSlider/>
+      <NavBar/>
+      <Hero/>
+      <AlertsSection/>
+      <TradingSction />
+      <TrainingsSection/>
+      <CompaniesCarousel/>
+      <Testmonial/>
+      <Plans/>
+      <AcrossGlobal/>
+      <ClientsFavFeature/>
+      <CommingSoon/>
+      <GetStarted/>
     </div>
   );
 }
