@@ -13,6 +13,7 @@ import TrainingsSection from './components/TrainingsSection/TrainingsSection';
 import ClientsFavFeature from './components/ClientsFavFeature/ClientsFavFeature';
 import CommingSoon from './components/CommingSoon/CommingSoon';
 import GetStarted from './components/GetStarted/GetStarted';
+import FAQ from './components/FAQ/FAQ';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <ClientsFavFeature/>
       <CommingSoon/>
       <GetStarted/>
+      <FAQ/>
     </div>
   );
 }
